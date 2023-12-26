@@ -13,7 +13,7 @@ The Basics of Objects in JavaScript:
                  In JavaScript, an object is a composite data type that allows you to group related data and functions together. Objects are instances of a class, and they can be created using either literal notation or the Object constructor. Here's a simple example:
 
 
-// Object literal notation
+
 const person = {
   firstName: 'Sabari',
   lastName: 'vel',
@@ -37,7 +37,7 @@ const personPrototype = {
   }
 };
 
-// Creating an object with the prototype
+
 const person = Object.create(personPrototype);
 person.firstName = 'Sabari';
 person.lastName = 'vel';
