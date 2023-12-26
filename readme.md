@@ -26,7 +26,7 @@ In this example, `person `is an object with properties (`firstName`, `lastName`,
 ## Internal Representation of Objects:
 Internally, JavaScript engines use various mechanisms to represent objects. One common representation is the property map, a data structure that associates property names with values. Each object has a hidden property map that stores its properties and their corresponding values.
 
-* Reference to the Prototype:
+## Reference to the Prototype:
 JavaScript follows a prototype-based inheritance model. Objects can inherit properties and methods from other objects known as prototypes. The internal representation includes a reference to the prototype of the object, forming a prototype chain.
 
                  // Creating a prototype object
@@ -46,7 +46,7 @@ JavaScript follows a prototype-based inheritance model. Objects can inherit prop
  
  In this example, `person `inherits the `sayGreeting `method from `personPrototype`.
   
-* Property Descriptors:
+## Property Descriptors:
 Each property in an object has an associated property descriptor that defines its behavior. Property descriptors include information about whether the property is writable, enumerable, and configurable. You can access property descriptors using the `Object.getOwnPropertyDescriptor`method.
 
                  const obj = { name: 'Example' };
