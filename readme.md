@@ -6,7 +6,7 @@
 2. **Write a blog about objects and its internal representation in Javascript**
      
 ## Introduction:
-                JavaScript, the programming language that powers the dynamic behavior of the web, is renowned for its versatile and powerful object-oriented features. Objects play a central role in JavaScript, serving as the building blocks for data structures and enabling developers to model real-world entities. In this blog, we'll explore the concept of objects in JavaScript and delve into their internal representation.
+JavaScript, the programming language that powers the dynamic behavior of the web, is renowned for its versatile and powerful object-oriented features. Objects play a central role in JavaScript, serving as the building blocks for data structures and enabling developers to model real-world entities. In this blog, we'll explore the concept of objects in JavaScript and delve into their internal representation.
     
 
 The Basics of Objects in JavaScript:
