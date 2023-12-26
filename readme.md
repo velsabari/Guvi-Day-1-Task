@@ -28,20 +28,20 @@ Internally, JavaScript engines use various mechanisms to represent objects. One 
 ## Reference to the Prototype:
 JavaScript follows a prototype-based inheritance model. Objects can inherit properties and methods from other objects known as prototypes. The internal representation includes a reference to the prototype of the object, forming a prototype chain.
 
-// Creating a prototype object
-const personPrototype = {
-  sayGreeting: function() {
-    console.log('Greetings!');
-  }
-};
+    // Creating a prototype object
+    const personPrototype = {
+      sayGreeting: function() {
+        console.log('Greetings!');
+      }
+    };
 
 
-const person = Object.create(personPrototype);
-person.firstName = 'Sabari';
-person.lastName = 'vel';
-person.age = 22;
+    const person = Object.create(personPrototype);
+    person.firstName = 'Sabari';
+    person.lastName = 'vel';
+    person.age = 22;
 
-person.sayGreeting(); // Outputs: Greetings!
+    person.sayGreeting(); // Outputs: Greetings!
  
  In this example, `person `inherits the `sayGreeting `method from `personPrototype`.
   
@@ -49,9 +49,9 @@ person.sayGreeting(); // Outputs: Greetings!
 Each property in an object has an associated property descriptor that defines its behavior. Property descriptors include information about whether the property is writable, enumerable, and configurable. You can access property descriptors using the `Object.getOwnPropertyDescriptor`method.
 const obj = { name: 'Example' };
 
-const descriptor = Object.getOwnPropertyDescriptor(obj, 'name');
-console.log(descriptor);
-// Outputs: { value: 'Example', writable: true, enumerable: true, configurable: true }
+    const descriptor = Object.getOwnPropertyDescriptor(obj, 'name');
+    console.log(descriptor);
+    // Outputs: { value: 'Example', writable: true, enumerable: true, configurable: true }
 
 ## Memory Management:
 JavaScript engines handle memory management for objects. They use garbage collection to automatically reclaim memory occupied by objects that are no longer reachable. Developers need not explicitly manage memory allocation and deallocation.
