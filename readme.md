@@ -13,7 +13,7 @@ The Basics of Objects in JavaScript:
                  In JavaScript, an object is a composite data type that allows you to group related data and functions together. Objects are instances of a class, and they can be created using either literal notation or the Object constructor. Here's a simple example:
 
 
-                 // Object literal notation
+// Object literal notation
 const person = {
   firstName: 'Sabari',
   lastName: 'vel',
@@ -29,7 +29,8 @@ Internal Representation of Objects:
                  Internally, JavaScript engines use various mechanisms to represent objects. One common representation is the property map, a data structure that associates property names with values. Each object has a hidden property map that stores its properties and their corresponding values.
 
 Reference to the Prototype:
-                 // Creating a prototype object
+
+// Creating a prototype object
 const personPrototype = {
   sayGreeting: function() {
     console.log('Greetings!');
