@@ -29,6 +29,7 @@ Internal Representation of Objects:
                  Internally, JavaScript engines use various mechanisms to represent objects. One common representation is the property map, a data structure that associates property names with values. Each object has a hidden property map that stores its properties and their corresponding values.
 
 Reference to the Prototype:
+                 JavaScript follows a prototype-based inheritance model. Objects can inherit properties and methods from other objects known as prototypes. The internal representation includes a reference to the prototype of the object, forming a prototype chain.
 
 // Creating a prototype object
 const personPrototype = {
